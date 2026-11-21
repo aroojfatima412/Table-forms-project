@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="./formtable.css">
+    <link rel="shortcut icon" href="A favicon.png" type="image/x-icon">
+    <title>Document</title>
+    <style>
+       span{
+        color: red;
+       }
+       .name{
+        color: aquamarine;
+       }
+       #l{
+        color: yellow;
+       }
+    </style>
+</head>
+<body>
+    <!--Made a registration form-->
+    <form action="">
+        <table border="4px" style="background-color: darksalmon;">
+            <tr>
+                <th colspan="5"><span>Registeration Form</span></th>
+            </tr>
+            <tr>
+                <td><label for="name"><span class="name">Name</span></label></td>
+                <td></span><input type="text" id="name" <span style="background-color: bisque; color:blueviolet ;"></span></td>
+            </tr>
+            <tr>
+                <td><label for="email"><span id="l">Email</span></label></td>
+                <td><input type="email" id="email" <span style="background-color:aquamarine; color:darkblue;"></span></td>
+            </tr>
+            <tr>
+                <td><label for="pass"> <span style="color: blueviolet;">Password</span></label></td>
+                <td><input type="password" id="pass" <span style="background-color: antiquewhite; color: chartreuse;"></span></td>
+            </tr>
+            <tr>
+                <td><label for="DOB"><span class="d">DOB</span></label></td>
+                <td><input type="date" id="DOB"<span style="background-color: cornsilk; color: crimson;"></span></td>
+            </tr>
+            <tr>
+                <td><label for="num"><span class="n">Number</span></label></td>
+                <td><input type="number" id="num" <span style="background-color: blanchedalmond; color: darkmagenta;"></span></td>
+            </tr>
+            <tr>
+                <td><label for=""><span id="g">Gender</span></label></td>
+                <td><input type="radio" name="gender"><span style="color:blue;">Male</span><input type="radio" name="gender"><span style="color:deeppink;">Female</span></td>
+            </tr>
+            <tr>
+                <td><label for=""><span id="h">Hobbies</label></td>
+                <td><input type="checkbox"><span style="color: darkmagenta;">Cricket</span> <input type="checkbox"><span style="color: gold;">Hockey</span> <input type="checkbox"><span style="color: skyblue;">Tabletennis</span></td>
+            </tr>
+            <tr>
+                <td><label for="pic"><span id="p">Picture</span></label></td>
+                <td><input type="file" id="pic"></td>
+            </tr>
+            <tr>
+                <td><label for=""><span class="c">Course</span></label></td>
+                <td><select name="" id="" <span style="background-color: aquamarine;color:deeppink;"></span>>
+                        <option value="">Web Development</option>
+                        <option value="">Digital Marketing</option>
+                        <option value="">Graphic Designing</option>
+                        <option value="">Artificial Intelligence</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for=""><span class="a">About</span></label></td>
+                <td><textarea name="" id="" rows="3" cols="15"<span style="background-color:burlywood; color: yellow;"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit" style="background-color: brown;"><span id="r">Register</span></button> <button type="reset" style="background-color:blanchedalmond;"><span id="e">Reset</span></button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
